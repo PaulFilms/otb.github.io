@@ -1,0 +1,40 @@
+/* logo / <> / dark mode button */
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 2px solid var(--border-color);
+}
+
+.logo {
+
+    height: 50px;
+    align-self: left;
+    margin-left: 10px;
+    display: block;
+    margin-left: 10px;
+}
+
+.navigation {
+    font-size: 30px;
+    /* font-weight: bold; */
+    color: var(--border-color);
+}
+
+.btn_dark_mode {
+    width: 50px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    height: 50px;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;  
+    align-items: center;
+    justify-content: center;
+    align-self: right;
+    margin-right: 10px;
+}
